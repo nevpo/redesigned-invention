@@ -1,0 +1,116 @@
+{
+  "AbyssAccuracyIfNoEnemySlainRecentlyJewel1_": {
+    "adds_tags": [],
+    "domain": "abyss_jewel",
+    "generation_type": "suffix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effects": [],
+    "group": "AccuracyIfNoEnemySlainRecently",
+    "is_essence_only": false,
+    "name": "of the Deadeye",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "abyss_jewel_melee",
+        "weight": 500
+      },
+      {
+        "tag": "abyss_jewel_ranged",
+        "weight": 1000
+      },
+      {
+        "tag": "abyss_jewel_caster",
+        "weight": 0
+      },
+      {
+        "tag": "abyss_jewel_summoner",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 0
+      }
+    ],
+    "stats": [
+      {
+        "id": "accuracy_rating_+%_if_enemy_not_killed_recently",
+        "max": 30,
+        "min": 20
+      }
+    ],
+    "type": "AccuracyIfNoEnemySlainRecently"
+  },
+  "AbyssAccuracyRatingJewel1": {
+    "adds_tags": [
+      "has_attack_mod"
+    ],
+    "domain": "abyss_jewel",
+    "generation_type": "suffix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effects": [],
+    "group": "IncreasedAccuracy",
+    "is_essence_only": false,
+    "name": "of Calm",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "abyss_jewel_melee",
+        "weight": 0
+      },
+      {
+        "tag": "abyss_jewel_ranged",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 0
+      }
+    ],
+    "stats": [
+      {
+        "id": "accuracy_rating",
+        "max": 30,
+        "min": 10
+      }
+    ],
+    "type": "IncreasedAccuracy"
+  },
+  "AbyssAccuracyRatingJewel2": {
+    "adds_tags": [
+      "has_attack_mod"
+    ],
+    "domain": "abyss_jewel",
+    "generation_type": "suffix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effects": [],
+    "group": "IncreasedAccuracy",
+    "is_essence_only": false,
+    "name": "of Steadiness",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "abyss_jewel_melee",
+        "weight": 500
+      },
+      {
+        "tag": "abyss_jewel_ranged",
+        "weight": 1000
+      },
+      {
+        "tag": "default",
+        "weight": 0
+      }
+    ],
+    "stats": [
+      {
+        "id": "accuracy_rating",
+        "max": 60,
+        "min": 31
+      }
+    ],
+    "type": "IncreasedAccuracy"
+  }
+}
